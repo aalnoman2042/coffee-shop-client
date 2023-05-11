@@ -4,7 +4,7 @@ import Swal from "sweetalert2";
 
 const Updatecoffee = () => {
     const coffee = useLoaderData()
-    const { _id, name, quantity, supplier, taste, category, details, photo } =
+    const { _id, name, supplier, taste, category,  photo } =
     coffee;
 
     const handleUpdate = event =>{

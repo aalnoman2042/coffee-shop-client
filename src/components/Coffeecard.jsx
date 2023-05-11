@@ -1,9 +1,9 @@
-import { data } from "autoprefixer";
+
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 
 const Coffeecard = ({ coffee ,coffees, setCoffees }) => {
-  const { _id, name, quantity, supplier, taste, category, details, photo } =
+  const { _id, name, quantity, supplier, taste,  photo } =
     coffee;
 
   const handleDelete = (id) => {
